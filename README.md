@@ -10,4 +10,4 @@ For example:
 python pr_summary.py 7 https://github.com/SrbhSnghViet/Demo srbhkmrsngh@gmail.com
 ```
 ### Note:
-This script will print the email content on the console as SMTP details are required to send the email.
+This script will print the email content on the console (as asked) as SMTP details are required to send the email.
