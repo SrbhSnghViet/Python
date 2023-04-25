@@ -6,7 +6,7 @@ from prettytable import PrettyTable
 
 #Print error message if any command line argument is missing.
 if len(sys.argv) != 4:
-    sys.exit("Error: Please provide number of days to fetch the pull requests in number, repository url and email id to send the report")
+    sys.exit("Error: Please provide number of days to fetch the pull requests in digits, repository url and email id to send the report")
     
 # Get the arguments repo_url, email_to and number of days to fetch the pull requests
 days_to_fetch = int(sys.argv[1])
